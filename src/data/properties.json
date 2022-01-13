@@ -1,0 +1,82 @@
+[
+  {
+    "id": "1",
+    "name": "Default House",
+    "type": "house",
+    "price": "11000",
+    "imagePath": "assets/images/cartoon-house.jpg",
+    "sellRent": "1"
+  },
+  {
+    "id": "2",
+    "name": "Default House2",
+    "type": "house",
+    "price": "45000",
+    "imagePath": "assets/images/houses/house1.jpg",
+    "sellRent": "2"
+  },
+  {
+    "id": "3",
+    "name": "Default House3",
+    "type": "house",
+    "price": "12000",
+    "imagePath": "assets/images/houses/house2.jpg",
+    "sellRent": "2"
+  },
+  {
+    "id": "4",
+    "name": "Default House4",
+    "type": "house",
+    "price": "23000",
+    "imagePath": "assets/images/houses/house3.jpg",
+    "sellRent": "1"
+  },
+  {
+    "id": "5",
+    "name": "Default House4",
+    "type": "house",
+    "price": "23000",
+    "imagePath": "assets/images/houses/house4.jpg",
+    "sellRent": "1"
+  },
+  {
+    "id": "6",
+    "name": "Default House4",
+    "type": "house",
+    "price": "23000",
+    "imagePath": "assets/images/houses/house5.jpg",
+    "sellRent": "2"
+  },
+  {
+    "id": "7",
+    "name": "Default House4",
+    "type": "house",
+    "price": "23000",
+    "imagePath": "assets/images/houses/house6.jpg",
+    "sellRent": "1"
+  },
+  {
+    "id": "8",
+    "name": "Default House4",
+    "type": "house",
+    "price": "23000",
+    "imagePath": "assets/images/houses/house7.jpg",
+    "sellRent": "1"
+  },
+  {
+    "id": "9",
+    "name": "Default House4",
+    "type": "house",
+    "price": "23000",
+    "imagePath": "assets/images/houses/house8.jpg",
+    "sellRent": "1"
+  },
+  {
+    "id": "10",
+    "name": "Default House4",
+    "type": "house",
+    "price": "23000",
+    "imagePath": "assets/images/houses/house9.jpg",
+    "sellRent": "1"
+  }
+]

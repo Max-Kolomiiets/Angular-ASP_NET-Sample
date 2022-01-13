@@ -1,0 +1,11 @@
+<h1 class="text-center">{{ propertyId }}</h1>
+<div class="m-4">
+  <button (click)="toNextProperty()" class="btn btn-success">Next Property</button>
+</div>
+<br><br>
+<button routerLink="/property-detail/1" class="btn btn-success">1</button>
+<button routerLink="/property-detail/2" class="btn btn-success">2</button>
+<button routerLink="/property-detail/3" class="btn btn-success">3</button>
+<button [routerLink]="['/property-detail/', '4']" class="btn btn-success">4</button>
+
+

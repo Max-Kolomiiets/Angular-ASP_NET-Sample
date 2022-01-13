@@ -1,0 +1,40 @@
+<div class="mb-4 shadow-sm">
+  <div class="card">
+    <div class="img-wrapper">
+      <img
+        *ngIf="property?.Image"
+        src="{{ property.Image }}"
+        class="card-img-top"
+        alt="...image..."
+      />
+      <img
+        *ngIf="!property?.Image"
+        src="assets/images/cartoon-house.jpg"
+        class="card-img-top"
+        alt="...image..."
+      />
+      <ul *ngIf="property?.Id" class="list-inline text-center member-icons animate">
+        <li class="list-inline-item">
+          <button
+            class="btn btn-primary"
+            routerLink="/property-detail/{{ property.Id }}"
+          >
+            <i class="far fa-edit"></i>
+          </button>
+        </li>
+        <li class="list-inline-item">
+          <button class="btn btn-primary">
+            <i class="far fa-address-book"></i>
+          </button>
+        </li>
+      </ul>
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">
+        Property - <strong>{{ property?.Name }}</strong>
+      </h5>
+      <p class="card-text"><strong>Type: </strong>{{ property?.PType }}</p>
+      <p class="card-text"><strong>Price: </strong>${{ property?.Price }}</p>
+    </div>
+  </div>
+</div>
